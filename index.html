@@ -2,11 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Weather app</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="./js/app.js" charset="utf-8" defer></script>
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="map"></div>
+    <div class="wind">
+      <div class="wind-section">
+        <h1 class="wind-direction">Direction</h1>
+        <span>Wind Direction</span>
+      </div>
+    </div>
+    <div class="speed"></div>
+        <div class="speed-section">  
+        <h2 class="wind-speed">Wind Speed</h2>
+        <span>Knots</span>
+    </div>
+    </div>
+    <div class="temperature">
+      <div class="degree-section">
+        <h2 class="temperature-degree">34</h2>
+        <span>Celcius</span>
+      </div>
+    </div>
+    <div class="temperature-description">It's cold</div>
+    <img class="icon">
+    <script src="app.js"></script>
   </body>
 </html>
